@@ -1,0 +1,47 @@
+
+html{
+    font-size:62.5%;
+}
+
+h1{
+    color:#ff66ff;
+}
+
+.header{
+    color:cornflowerblue;
+}
+
+#head {
+    color:deeppink;
+}
+
+h1::after{
+    content:" is MOMO";
+}
+
+.text-section{
+    /* font-size: 1.5em; */
+    /* 16 * 1.5 */
+
+    /*only relative to the html*/
+    font-size: 1.6rem;
+}
+
+.text-section div{
+    /* font-size: 1.5em; */
+    /* 16 * 1.5 * 1.5 */
+     /*only relative to the html*/
+     font-size: 2.4rem;
+}
+
+button{
+    padding: 2rem;;
+}
+
+button:hover{
+    background-color: aqua;
+}
+
+button:focus{
+    background-color: #ff66ff;
+}
