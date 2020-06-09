@@ -7,4 +7,5 @@ Tutorials from dev ed
 ## Section 03: Mobile Responsive
 ## Section 04: Flexbox
 ## Section 05: Travelly
+## Section 06: Accessibility
 

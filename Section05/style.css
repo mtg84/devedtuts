@@ -55,16 +55,20 @@ button {
     transition: background 1s ease-in-out;
 }
 
-button:hover{
+button:hover, button:focus{
     background: #27394e;
+    outline: solid;
 }
+
 
 /*Nav*/
 
 .main-head{
     background: #131c27;
     color:white;
-    
+    position:sticky;
+    top:0px;
+    z-index: 3;
 }
 
 nav {
@@ -75,6 +79,7 @@ nav {
     width:90%;
     margin:auto;
     align-items: center;
+    
 }
 
 nav ul {
@@ -201,6 +206,8 @@ nav ul {
     margin:2rem 5rem;
     min-height: 30vh;
     text-align: center;
+    line-height: 1.8;
+    padding-bottom: 2rem;
 }
 
 .card-icon {
