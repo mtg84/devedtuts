@@ -8,4 +8,5 @@ Tutorials from dev ed
 ## Section 04: Flexbox
 ## Section 05: Travelly
 ## Section 06: Accessibility
+## Section 07: CSS Grid
 
