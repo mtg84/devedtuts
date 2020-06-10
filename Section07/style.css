@@ -12,14 +12,19 @@ html{
 .boxes{
     border:1rem solid rgba(230, 113, 113, 0.8);
     display:grid;
+   
     /* grid-template-columns: 10rem 2fr 1fr 10rem; */
     /* grid-template-columns: 1fr 1fr 1fr; */
     grid-template-columns: repeat(3,1fr);
-    grid-template-rows: 20rem 20rem 20rem;
+    grid-template-rows: 20rem 20rem;
+   /* grid-template-rows: 20rem 20rem 20rem;
     grid-template-areas:
     "box2 box2 box3" 
     "box4 . box5"
-    "box6 box1 box1"
+    "box6 box1 box1" */
+    grid-gap:1rem;
+    justify-items: center;
+    align-items: center;
 
 }
 
@@ -29,26 +34,34 @@ html{
 
 .box1{
     background-color: rgb(162,92,202);
-    grid-area:box1;
+    /* grid-area:box1; */ 
+ 
 
 }
 .box2{
     background-color: rgb(94, 92, 202);
-    grid-area:box2;
-}
+    justify-self:center;
+    align-self: end;
+    /* grid-area:box2;*/
+ 
+} 
 .box3{
     background-color: rgb(92, 202, 156);
-    grid-area:box3;
+    grid-row: 1/4;
+    grid-column: 3/4;
+    /* grid-area:box3; */
 }
 .box4{
     background-color: rgb(202, 92, 152);
-    grid-area:box4;
+    /* grid-area:box4; */
 }
 .box5{
     background-color: rgb(202, 195, 92);
-    grid-area:box5;
+    justify-self:start;
+    align-self: start;
+    /* grid-area:box5; */
 }
 .box6{
     background-color: rgb(52, 52, 102);
-    grid-area:box6;
+    /* grid-area:box6; */
 }
