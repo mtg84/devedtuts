@@ -1,0 +1,22 @@
+// Nesting
+.introduction{
+    min-height: 100vh;
+    @include flex();
+    flex-direction: column;
+ 
+
+
+    h2{
+        font-size:4rem;
+    }
+
+    button{
+        @include button(1rem 3rem, red)
+        &:hover{
+            background: #3580e2;
+        }
+        &:focus{
+            background: #3580e2;   
+        }
+    }
+}

@@ -1,0 +1,50 @@
+* {
+  margin: 0;
+  padding: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+html {
+  font-size: 62.5%;
+}
+
+body {
+  background: #676aaf;
+  font-size: 4rem;
+}
+
+.introduction {
+  min-height: 100vh;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.introduction h2 {
+  font-size: 4rem;
+}
+
+.introduction button {
+  padding: 1rem 3rem;
+  background: red;
+}
+
+.introduction button:hover {
+  background: #3580e2;
+}
+
+.introduction button:focus {
+  background: #3580e2;
+}
+/*# sourceMappingURL=style.css.map */
